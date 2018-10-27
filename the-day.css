@@ -112,6 +112,81 @@ p {
   font-size: 18px;
 }
 
+/*About the day intro ends*/
+
+/*Timetable section starts*/
+
+.schedule {
+  text-align: center;
+}
+
+.schedule h1 {
+  padding-bottom: 20px;
+}
+
+
+.timeline{
+  --uiTimelineMainColor: var(--timelineMainColor, #b0e0e6);
+  --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
+  position: relative;
+  padding: 30px 20px 30px 20px;
+  width: 80%;
+}
+
+.timeline:before{
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: #b0e0e6;
+  position: absolute;
+  top: 0;
+}
+
+
+.timeline__group{
+  position: relative;
+}
+
+.timeline__group:not(:first-of-type){
+  margin-top: 25px;
+}
+
+
+.timeline__box{
+  position: center;
+}
+
+.timeline__box:not(:last-of-type){
+  margin-bottom: 30px;
+}
+
+
+.timeline_time{
+  font-size: 18px;
+  display: block;
+  min-width: 65px;
+  position: absolute;
+  left: 0;
+
+  box-sizing: border-box;
+  padding: .5rem 1.5rem;
+  text-align: center;
+
+  background-color: #b0e0e6;
+}
+
+
+.timeline__post{
+  padding: 20px 30px;
+  border-radius: 2px;
+  border-left: 3px solid var(--uiTimelineMainColor);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+  background-color: var(--uiTimelineSecondaryColor);
+}
+
+
+/*Timetable section ends*/
+
 /*footer bar styles*/
 .footer-bar {
   background-color: #b0e0e6;
