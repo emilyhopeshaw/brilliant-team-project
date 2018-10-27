@@ -22,7 +22,7 @@ body {
   justify-content: center;
   text-align: left;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 .wedding-logo {
@@ -69,7 +69,9 @@ ul.nav-list-elements li {
   padding-right: 50px;
   float: right;
   display: inline-block;
+  vertical-align: baseline;
 }
+
 
 /*nav bar styles end*/
 
@@ -94,6 +96,10 @@ ul.nav-list-elements li {
 
 .about-copy {
   text-align: left;
+  float: none;
+  display: block;
+  word-wrap: break-word;
+  height: 266px;
 }
 
 h1 {
@@ -102,6 +108,9 @@ h1 {
   color: #F89184;
 }
 
+p {
+  font-size: 18px;
+}
 
 /*footer bar styles*/
 .footer-bar {
