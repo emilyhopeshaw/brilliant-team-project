@@ -78,7 +78,7 @@ ul.nav-list-elements li {
 /*nav bar styles end*/
 
 /*about the day intro block styles start*/
-.about-the-day-intro {
+.about-the-day-element {
   background-color: white;
   display: inline-block;
   width: 900px;
@@ -116,7 +116,7 @@ p {
 
 /*About the day intro ends*/
 
-/*Timetable section starts*/
+/*Timeline section starts*/
 
 .schedule {
   text-align: center;
@@ -142,7 +142,7 @@ p {
 .timeline:before {
   content: "";
   width: 4px;
-  height: 100%;
+  height: 86%;
   background-color: #b0e0e6;
   position: absolute;
 }
@@ -152,17 +152,10 @@ p {
   position: relative;
 }
 
-.timeline__group:not(:first-of-type){
-  margin-top: 25px;
-}
-
 
 .timeline__box{
   position: center;
-}
-
-.timeline__box:not(:last-of-type){
-  margin-bottom: 30px;
+  padding: 25px 0;
 }
 
 
@@ -192,7 +185,25 @@ p {
 
 /*Timetable section ends*/
 
-/*Directions sectiomn starts*/
+/*Menu choices*/
+.menu-table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 18px;
+}
+
+td {
+  padding: 15px;
+}
+
+th {
+  padding: 15px;
+}
+
+/*Menu choices end*/
+
+/*Directions section starts*/
 .getting-here {
   text-align: center;
 }
@@ -216,6 +227,10 @@ p {
 
 
 /*Direction section ends*/
+
+/*Back to top button styling*/
+
+/*Back to top button styling ends*/
 
 /*footer bar styles*/
 .footer-bar {
