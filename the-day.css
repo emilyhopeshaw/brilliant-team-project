@@ -23,6 +23,8 @@ body {
   text-align: left;
   display: inline-block;
   vertical-align: bottom;
+/*  position: sticky;
+  top: 0; */
 }
 
 .wedding-logo {
@@ -128,10 +130,10 @@ p {
 .timeline{
   --uiTimelineMainColor: var(--timelineMainColor, #b0e0e6);
   --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
-  position: relative;
-  padding: 30px 20px 30px 20px;
-  width: 80%;
+  margin: auto;
+  width: 60%;
 }
+
 
 .timeline:before{
   content: "";
@@ -139,7 +141,6 @@ p {
   height: 100%;
   background-color: #b0e0e6;
   position: absolute;
-  top: 0;
 }
 
 
