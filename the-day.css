@@ -123,7 +123,11 @@ p {
 }
 
 .schedule h1 {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+}
+
+.directions-copy h1 {
+  padding-top: 20px;
 }
 
 
@@ -135,7 +139,7 @@ p {
 }
 
 
-.timeline:before{
+.timeline:before {
   content: "";
   width: 4px;
   height: 100%;
@@ -187,6 +191,31 @@ p {
 
 
 /*Timetable section ends*/
+
+/*Directions sectiomn starts*/
+.getting-here {
+  text-align: center;
+}
+
+.mapouter {
+  text-align:right;
+  height:200px;
+  width:300px;
+  padding: 20px 20px;
+  border-radius: 30%;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:200px;
+  width:300px;
+  padding: 20px 20px;
+  border-radius: 30%;
+}
+
+
+/*Direction section ends*/
 
 /*footer bar styles*/
 .footer-bar {
