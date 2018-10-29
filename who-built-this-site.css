@@ -86,7 +86,7 @@ ul.nav-list-elements li {
   margin-right: 15%;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 20px 20px;
+  padding: 30px 80px;
 }
 
 
@@ -107,6 +107,11 @@ h1 {
 p {
   font-size: 18px;
 }
+
+a {
+  color: #F89184;
+}
+
 
 /*About the day intro ends*/
 
