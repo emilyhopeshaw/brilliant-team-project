@@ -126,7 +126,7 @@ p {
   padding-bottom: 40px;
 }
 
-.directions-copy h1 {
+.menu-copy h1 {
   padding-top: 20px;
 }
 
@@ -191,6 +191,7 @@ p {
   margin-right: auto;
   width: 70%;
   font-size: 18px;
+  padding-bottom: 20px;
 }
 
 td {
@@ -199,6 +200,14 @@ td {
 
 th {
   padding: 15px;
+}
+
+.menu {
+  text-align: center;
+  float: none;
+  display: block;
+  word-wrap: break-word;
+  height: 266px;
 }
 
 /*Menu choices end*/
