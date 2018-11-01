@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 
-  <head>
-    <title>About the wedding day</title>
-    <link rel="stylesheet" type="text/css" href="the-day.css">
-    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-  </head>
+<head>
+  <title>About the wedding day</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="the-day.css">
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial scale=1">
+</head>
 
 <body>
   <!-- header bar -->
+  <nav class="navbar-expand-sm">
   <div class="header-bar">
-    <a name="top"></a>
     <div class="logo">
       <a href="index.html">
         <img class="wedding-logo" src=./images/wedding-logo.png>
@@ -25,32 +27,35 @@
       <p>No, not <em>that</em> Ross and Rachel...</p>
     </div>
   </div>
+</nav>
+  <hr class="main-border" />
   <div class="about-the-day-element">
     <div class="images-container">
       <img class="bunting-image" src=./images/bunting.jpg>
     </div>
-      <div class="about-copy">
-        <h1>About the day</h1>
-        <p>We're getting married on 15 January 2019 at Islington Town Hall, London. We can't wait to see as many of you there as possible! Let us know if you can attend by visiting the <a href="#rsvp">RSVP form.</a></p>
-        <br>
-        <p>We really hope you can make it! There will be the ceremony, followed by a 3-course dinner at the reception (see menu below), with dancing into the evening.</p>
-      </div>
+    <div class="about-copy">
+      <h1>About the day</h1>
+      <p>We're getting married on 15 January 2019 at Islington Town Hall, London. We can't wait to see as many of you there as possible! Let us know if you can attend by visiting the <a href="#rsvp">RSVP form.</a></p>
+      <br>
+      <p>We really hope you can make it! There will be the ceremony, followed by a 3-course dinner at the reception (see menu below), with dancing into the evening.</p>
     </div>
-    <div class="about-the-day-element">
-        <div class="schedule">
-          <h1>The day's events</h1>
+  </div>
+  <hr />
+  <div class="about-the-day-element">
+    <div class="schedule">
+      <h1>The day's events</h1>
       <div class="timeline">
-      <div class="timeline__group">
-        <div class="timeline__box">
-          <div class="timeline_time">
-            <span>10:30am</span>
-          </div>
-          <div class="timeline__post">
-            <div class="timeline__content">
-              <p>Arrive at Islington Town Hall.</p>
+        <div class="timeline__group">
+          <div class="timeline__box">
+            <div class="timeline_time">
+              <span>10:30am</span>
+            </div>
+            <div class="timeline__post">
+              <div class="timeline__content">
+                <p>Arrive at Islington Town Hall.</p>
+              </div>
             </div>
           </div>
-        </div>
           <div class="timeline_time">
             <span>11am</span>
           </div>
@@ -59,7 +64,7 @@
               <p>Wedding ceremony begins.</p>
             </div>
           </div>
-      </div>
+        </div>
         <div class="timeline__group">
           <div class="timeline__box">
             <div class="timeline_time">
@@ -71,81 +76,77 @@
               </div>
             </div>
           </div>
-            <div class="timeline_time">
-              <span>4pm-late</span>
+          <div class="timeline_time">
+            <span>4pm-late</span>
+          </div>
+          <div class="timeline__post">
+            <div class="timeline__content">
+              <p>Live band and dancing!</p>
             </div>
-            <div class="timeline__post">
-              <div class="timeline__content">
-                <p>Live band and dancing!</p>
-              </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
+    <hr />
   <div class="about-the-day-element">
-      <div class="menu">
-          <div class="menu-copy">
-            <h1>Menu choices</h1>
-            <p>Please see the menu below for food choices. Let us know what menu you would like on your RSVP form.</p>
-          </div>
-          <table class="menu-table">
-            <tr>
-              <th>Menu option 1</th>
-              <th>Menu option 2 (v)</th>
-            </tr>
-            <tr>
-              <td><strong>To start</strong>
-                <br>
-                Smoked salmon and beetroot salad.</td>
-              <td><strong>To start</strong>
-                <br>
-                Tomato soup with garlic croutons.
-              </td>
-            </tr>
-            <tr>
-              <td><strong>Mains</strong>
-                <br>
-                Venison in red wine sauce with seasonal vegetables.</td>
-              <td><strong>Mains</strong>
-                <br>
-                Vegetable tagine with cous cous.
-              </td>
-            </tr>
-            <tr>
-              <td><strong>Dessert</strong>
-                <br>
-                Chocolate and orange tart with chantilly cream.</td>
-              <td><strong>Dessert</strong>
-                <br>
-                Chocolate and orange tart with chantilly cream.
-              </td>
-            </tr>
-          </table>
-          </div>
+    <div class="menu">
+      <div class="menu-copy">
+        <h1>Menu choices</h1>
+        <p>Please see the menu below for food choices. Let us know what menu you would like on your RSVP form.</p>
+      </div>
+      <table class="menu-table">
+        <tr>
+          <th>Menu option 1</th>
+          <th>Menu option 2 (v)</th>
+        </tr>
+        <tr>
+          <td><strong>To start</strong>
+            <br> Smoked salmon and beetroot salad.</td>
+          <td><strong>To start</strong>
+            <br> Tomato soup with garlic croutons.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Mains</strong>
+            <br> Venison in red wine sauce with seasonal vegetables.</td>
+          <td><strong>Mains</strong>
+            <br> Vegetable tagine with cous cous.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Dessert</strong>
+            <br> Chocolate and orange tart with chantilly cream.</td>
+          <td><strong>Dessert</strong>
+            <br> Chocolate and orange tart with chantilly cream.
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <hr />
+  <div class="about-the-day-element">
+    <div class="about-copy">
+      <div class="getting-here">
+        <div class="directions-copy">
+          <h1>Getting here</h1>
+          <p>Islington Town Hall is easy to get to! See the map below for directions.</p>
         </div>
-
-  <div class="about-the-day-element">
-      <div class="about-copy">
-        <div class="getting-here">
-          <div class="directions-copy">
-            <h1>Getting here</h1>
-            <p>Islington Town Hall is easy to get to! See the map below for directions.</p>
-          </div>
-<!-- check this
+        <!-- check this
           <div class="mapouter">
             <div class="gmap_canvas">
               <iframe width="300" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=islington%20assembly%20hall&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
           </div>
  -->
-          <div class="directions-copy">
-            <p>The nearest tube is Highbury & Islington station (Victoria and Overground lines).</p>
-          </div>
-
+        <div class="directions-copy">
+          <p>The nearest tube is Highbury & Islington station (Victoria and Overground lines).</p>
         </div>
+
+      </div>
     </div>
   </div>
+  <hr class="main-border" />
 
 
 </body>
@@ -165,4 +166,5 @@
     </div>
   </div>
 </footer>
+
 </html>

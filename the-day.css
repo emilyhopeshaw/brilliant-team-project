@@ -4,14 +4,13 @@ html {
 }
 
 body {
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
   text-align: left;
   padding: 0;
   margin: 0 auto;
   background-color: #f5f5f5;
   font-size: 14px;
 }
-
 
 /*nav bar styles*/
 .header-bar {
@@ -23,7 +22,7 @@ body {
   text-align: left;
   display: inline-block;
   vertical-align: bottom;
-/*  position: sticky;
+  /*  position: sticky;
   top: 0; */
 }
 
@@ -32,35 +31,36 @@ body {
   float: left;
   height: 90px;
   padding-left: 30px;
+  vertical-align: middle;
 }
 
 .nav-list a {
   color: white;
   font-size: 24px;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 0 20px;
   position: relative;
   top: 50%;
 }
 
-.nav-list a:hover{
-  color: #82D58B;
+.nav-list a:hover {
+  color: #82d58b;
 }
 
 .nav-list a.active {
   text-decoration: underline;
 }
 
-
 .nav-list {
   display: inline-block;
-  padding-top: 5px;
+  margin: 18px 0;
 }
 
 ul.nav-list-elements li {
   display: inline-block;
   padding-right: 10px;
   text-align: center;
+  vertical-align: middle;
   color: black;
   font-size: 18px;
 }
@@ -69,11 +69,15 @@ ul.nav-list-elements li {
   text-align: right;
   font-size: 20px;
   padding-right: 50px;
+  margin: 18px 0;
   float: right;
   display: inline-block;
   vertical-align: baseline;
 }
 
+.nav-strapline p {
+  margin: 8px 0;
+}
 
 /*nav bar styles end*/
 
@@ -107,7 +111,7 @@ ul.nav-list-elements li {
 h1 {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #F89184;
+  color: #f89184;
 }
 
 p {
@@ -115,6 +119,22 @@ p {
 }
 
 /*About the day intro ends*/
+
+/*Divider styling*/
+hr {
+  margin: 10px;
+  border-top-color: #b0e0e6;
+  border-top-width: 2px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 900px;
+}
+
+.main-border {
+  border-top-color: #f89184;
+  width: 100%;
+  margin: 0;
+}
 
 /*Timeline section starts*/
 
@@ -130,14 +150,12 @@ p {
   padding-top: 20px;
 }
 
-
-.timeline{
+.timeline {
   --uiTimelineMainColor: var(--timelineMainColor, #b0e0e6);
   --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
   margin: auto;
   width: 60%;
 }
-
 
 .timeline:before {
   content: "";
@@ -147,19 +165,16 @@ p {
   position: absolute;
 }
 
-
-.timeline__group{
+.timeline__group {
   position: relative;
 }
 
-
-.timeline__box{
+.timeline__box {
   position: center;
   padding: 25px 0;
 }
 
-
-.timeline_time{
+.timeline_time {
   font-size: 18px;
   display: block;
   min-width: 65px;
@@ -167,21 +182,19 @@ p {
   left: 0;
 
   box-sizing: border-box;
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   text-align: center;
 
   background-color: #b0e0e6;
 }
 
-
-.timeline__post{
+.timeline__post {
   padding: 20px 30px;
   border-radius: 2px;
   border-left: 3px solid var(--uiTimelineMainColor);
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
   background-color: var(--uiTimelineSecondaryColor);
 }
-
 
 /*Timetable section ends*/
 
@@ -222,22 +235,21 @@ th {
 }
 
 .mapouter {
-  text-align:right;
-  height:200px;
-  width:300px;
+  text-align: right;
+  height: 200px;
+  width: 300px;
   padding: 20px 20px;
   border-radius: 30%;
 }
 
 .gmap_canvas {
-  overflow:hidden;
-  background:none!important;
-  height:200px;
-  width:300px;
+  overflow: hidden;
+  background: none !important;
+  height: 200px;
+  width: 300px;
   padding: 20px 20px;
   border-radius: 30%;
 }
-
 
 /*Direction section ends*/
 
@@ -277,10 +289,9 @@ th {
   text-decoration: underline;
 }
 
-.footer-list a:hover{
-  color: #82D58B;
+.footer-list a:hover {
+  color: #82d58b;
 }
-
 
 .footer-list {
   display: inline-block;
