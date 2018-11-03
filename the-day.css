@@ -12,6 +12,20 @@ body {
   font-size: 14px;
 }
 
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main-border {
+  border-top-color: #f89184;
+  width: 100%;
+  margin: 0;
+  border-top-width: 2px;
+}
+
 /*nav bar styles*/
 .header-bar {
   background-color: #b0e0e6;
@@ -26,12 +40,21 @@ body {
   top: 0; */
 }
 
+.navbar {
+  margin-bottom: 0;
+  border: none;
+}
+
 .wedding-logo {
   display: inline-block;
   float: left;
   height: 90px;
   padding-left: 30px;
   vertical-align: middle;
+}
+
+.nav-wrapper {
+  display: inline-block;
 }
 
 .nav-list a {
@@ -279,6 +302,7 @@ th {
   text-align: left;
   display: inline-block;
   vertical-align: middle;
+  bottom: 0;
 }
 
 .wedding-logo {
@@ -329,3 +353,34 @@ ul.footer-list-elements li {
 }
 
 /*footer bar styles end*/
+
+@media screen and (max-width: 755px) {
+  .wedding-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .nav-strapline {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .nav-wrapper {
+    text-align: center;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .footer-strapline {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  a {
+    font-size: 12px;
+  }
+}
