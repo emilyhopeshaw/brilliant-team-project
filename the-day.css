@@ -143,7 +143,7 @@ hr {
 }
 
 .schedule h1 {
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 
 .menu-copy h1 {
@@ -160,7 +160,15 @@ hr {
 .timeline:before {
   content: "";
   width: 4px;
-  height: 86%;
+  height: 90%;
+  background-color: #b0e0e6;
+  position: absolute;
+}
+
+.timeline:after {
+  content: "";
+  width: 4px;
+  height: 3%;
   background-color: #b0e0e6;
   position: absolute;
 }
@@ -225,6 +233,10 @@ th {
   display: block;
   word-wrap: break-word;
   height: 266px;
+}
+
+.options {
+  font-weight: bold;
 }
 
 /*Menu choices end*/
@@ -301,6 +313,7 @@ th {
 ul.footer-list-elements li {
   display: inline-block;
   padding-right: 10px;
+  padding-top: 25px;
   text-align: center;
   color: black;
   font-size: 18px;
@@ -310,6 +323,7 @@ ul.footer-list-elements li {
   text-align: right;
   font-size: 20px;
   padding-right: 50px;
+  padding-top: 30px;
   float: right;
   display: inline-block;
 }

@@ -6,28 +6,29 @@
   <link rel="stylesheet" type="text/css" href="the-day.css">
   <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial scale=1">
+  <link rel="shortcut icon" type="png" href="./images/favicon.png"/>
 </head>
 
 <body>
   <!-- header bar -->
   <nav class="navbar-expand-sm">
-  <div class="header-bar">
-    <div class="logo">
-      <a href="index.html">
-        <img class="wedding-logo" src=./images/wedding-logo.png>
-      </a>
+    <div class="header-bar">
+      <div class="logo">
+        <a href="index.html">
+          <img class="wedding-logo" src=./images/wedding-logo.png>
+        </a>
+      </div>
+      <div class="nav-list">
+        <ul class="nav-list-elements">
+          <li><a class="active" href="the-day.html">About the day</a></li>
+          <li><a href="rsvp.html">RSVP</a></li>
+        </ul>
+      </div>
+      <div class="nav-strapline">
+        <p>No, not <em>that</em> Ross and Rachel...</p>
+      </div>
     </div>
-    <div class="nav-list">
-      <ul class="nav-list-elements">
-        <li><a class="active" href="the-day.html">About the day</a></li>
-        <li><a href="rsvp.html">RSVP</a></li>
-      </ul>
-    </div>
-    <div class="nav-strapline">
-      <p>No, not <em>that</em> Ross and Rachel...</p>
-    </div>
-  </div>
-</nav>
+  </nav>
   <hr class="main-border" />
   <div class="about-the-day-element">
     <div class="images-container">
@@ -88,7 +89,7 @@
       </div>
     </div>
   </div>
-    <hr />
+  <hr />
   <div class="about-the-day-element">
     <div class="menu">
       <div class="menu-copy">
@@ -97,8 +98,8 @@
       </div>
       <table class="menu-table">
         <tr>
-          <th>Menu option 1</th>
-          <th>Menu option 2 (v)</th>
+          <td class="options">Menu option 1</td>
+          <td class="options">Menu option 2 (v)</td>
         </tr>
         <tr>
           <td><strong>To start</strong>
