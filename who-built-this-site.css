@@ -12,6 +12,20 @@ body {
   font-size: 14px;
 }
 
+.container-fluid {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main-border {
+  border-top-color: #f89184;
+  width: 100%;
+  margin: 0;
+  border-top-width: 2px;
+}
+
 /*nav bar styles*/
 .header-bar {
   background-color: #b0e0e6;
@@ -26,12 +40,21 @@ body {
   top: 0; */
 }
 
+.navbar {
+  margin-bottom: 0;
+  border: none;
+}
+
 .wedding-logo {
   display: inline-block;
   float: left;
   height: 90px;
   padding-left: 30px;
   vertical-align: middle;
+}
+
+.nav-wrapper {
+  display: inline-block;
 }
 
 .nav-list a {
@@ -85,20 +108,18 @@ ul.nav-list-elements li {
 .about-the-day-element {
   background-color: white;
   display: inline-block;
-  width: 900px;
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 30px 80px;
+  height: 100%;
 }
 
 .about-copy {
   text-align: center;
-  float: none;
   display: block;
   word-wrap: break-word;
-  height: 266px;
 }
 
 h1 {
@@ -127,6 +148,7 @@ a {
   text-align: left;
   display: inline-block;
   vertical-align: middle;
+  bottom: 0;
 }
 
 .wedding-logo {
@@ -161,6 +183,7 @@ a {
 ul.footer-list-elements li {
   display: inline-block;
   padding-right: 10px;
+  padding-top: 25px;
   text-align: center;
   color: black;
   font-size: 18px;
@@ -170,8 +193,40 @@ ul.footer-list-elements li {
   text-align: right;
   font-size: 20px;
   padding-right: 50px;
+  padding-top: 30px;
   float: right;
   display: inline-block;
 }
 
 /*footer bar styles end*/
+
+@media screen and (max-width: 755px) {
+  .wedding-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .nav-strapline {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .nav-wrapper {
+    text-align: center;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .footer-strapline {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  a {
+    font-size: 12px;
+  }
+}
