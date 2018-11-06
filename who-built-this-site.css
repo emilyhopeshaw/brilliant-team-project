@@ -1,6 +1,7 @@
 /*css file for who-built-this-site page*/
 html {
   display: block;
+  min-height: 100%;
 }
 
 body {
