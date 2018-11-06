@@ -379,9 +379,3 @@ ul.footer-list-elements li {
     display: none;
   }
 }
-
-@media screen and (max-width: 755px) {
-  a {
-    font-size: 12px;
-  }
-}
