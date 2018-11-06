@@ -183,18 +183,19 @@ hr {
 .timeline:before {
   content: "";
   width: 4px;
-  height: 90%;
+  height: 75%;
   background-color: #b0e0e6;
   position: absolute;
 }
 
+/*commentout
 .timeline:after {
   content: "";
   width: 4px;
-  height: 3%;
+  height: 10px;
   background-color: #b0e0e6;
   position: absolute;
-}
+} */
 
 .timeline__group {
   position: relative;
