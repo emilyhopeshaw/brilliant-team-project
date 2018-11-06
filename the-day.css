@@ -163,6 +163,7 @@ hr {
 
 .schedule {
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .schedule h1 {
@@ -183,7 +184,7 @@ hr {
 .timeline:before {
   content: "";
   width: 4px;
-  height: 75%;
+  height: 68%;
   background-color: #b0e0e6;
   position: absolute;
 }
