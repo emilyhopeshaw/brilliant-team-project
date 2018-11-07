@@ -138,9 +138,8 @@ hr {
   margin: 10px;
   border-top-color: #b0e0e6;
   border-top-width: 2px;
-  margin-left: 15%;
-  margin-right: 15%;
-  width: 900px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .main-border {
@@ -179,14 +178,13 @@ hr {
   position: absolute;
 }
 
-/*commentout
 .timeline:after {
   content: "";
   width: 4px;
   height: 10px;
   background-color: #b0e0e6;
   position: absolute;
-} */
+}
 
 .timeline__group {
   position: relative;
@@ -360,8 +358,16 @@ ul.footer-list-elements li {
   }
 }
 
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 940px) {
   .footer-strapline {
     display: none;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .timeline_time {
+    position: initial;
+    border-left: 3px solid var(--uiTimelineMainColor);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
   }
 }
