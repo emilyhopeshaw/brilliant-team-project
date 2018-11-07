@@ -12,13 +12,6 @@ body {
   font-size: 14px;
 }
 
-.container {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .main-border {
   border-top-color: #f89184;
   width: 100%;
@@ -107,10 +100,8 @@ ul.nav-list-elements li {
 /*about the day intro block styles start*/
 .about-the-day-element {
   background-color: white;
-  display: inline-block;
-  width: 900px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 20px 20px;
@@ -128,7 +119,6 @@ ul.nav-list-elements li {
   float: none;
   display: block;
   word-wrap: break-word;
-  height: 266px;
 }
 
 h1 {
@@ -240,10 +230,6 @@ hr {
   padding-bottom: 20px;
 }
 
-.menu {
-  margin-bottom: 200px;
-}
-
 td {
   padding: 15px;
 }
@@ -257,7 +243,6 @@ th {
   float: none;
   display: block;
   word-wrap: break-word;
-  height: 266px;
 }
 
 .options {
