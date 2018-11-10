@@ -1,1 +1,12 @@
-<h1> Emily Mould </h1>
+
+.about-the-day-element {
+        background:url("https://thumbs-prod.si-cdn.com/EB_pmD6ogvJXVlr2orPlET7lXkw=/800x600/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/54/ef/54ef8b98-4334-47a3-a9ac-a9d84d8ecd73/istock-626837432.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+      }
+
+.text_for_photo { 
+    text-decoration-style: white;
+}     
