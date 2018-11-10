@@ -107,11 +107,26 @@ ul.nav-list-elements li {
   padding: 20px 20px;
 }
 
-.bunting-image {
+.carousel {
   display: inline-block;
   float: left;
-  width: 400px;
-  padding-right: 40px;
+  width: 350px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+.glyphicon {
+  color: #82d58b;
+}
+
+.carousel-control {
+  margin: 20px 0 20px 0;
+  width: 0;
+}
+
+.carousel-indicators li {
+  background-color: #82d58b;
 }
 
 .about-copy {
@@ -369,5 +384,18 @@ ul.footer-list-elements li {
     position: initial;
     border-left: 3px solid var(--uiTimelineMainColor);
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .carousel-control {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .carousel {
+    margin-bottom: 20px;
+    margin-right: 0;
   }
 }
