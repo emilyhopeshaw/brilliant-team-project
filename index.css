@@ -7,6 +7,25 @@
         height: 100%;
       }
 
-.text_for_photo { 
-    text-decoration-style: white;
-}     
+.text-for-photo {
+    text-color: white;
+}
+
+.btn-twitter {
+    background: #00acee;
+    border-color:#009ad5;
+}
+
+.btn-facebook {
+    background: #4868ac;
+    border-color:#314776;
+}
+
+.btn-pinterest {
+    background: #b62f26;
+    border-color: #b62f26;
+}
+
+$("button").on("click" function() {
+    alert("Thank you!)};
+}
