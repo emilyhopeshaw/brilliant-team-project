@@ -37,6 +37,7 @@ body {
   text-align: left;
   display: inline-block;
   vertical-align: bottom;
+
   /*  position: sticky;
   top: 0; */
 }
@@ -138,64 +139,31 @@ a {
 /*main page block ends*/
 
 /*image styles start*/
-.the-team {
-  text-align: center;
-}
-
-.photos {
+.person {
   display: inline-block;
-  padding-bottom: 20px;
 }
 
-#emily-s {
+.person-pic {
   height: 200px;
-}
-
-#fiona {
-  height: 200px;
-}
-
-#emily-m {
-  height: 200px;
+  padding: 0 7px;
+  display: inline-block;
 }
 
 .social {
-  text-align: center;
-  font-size: 2.5em;
-  color: #555;
-  overflow: hidden;
-}
-
-.icons {
-  display: inline-block;
-}
-.social a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.social i:hover {
-  margin-top: -1px;
-}
-
-.social i#linkedin:hover {
-  color: #0177b5;
-}
-
-.one {
-  display: inline-block;
-}
-.two {
-  height: 200px;
-  background-color: grey;
-  display: inline-block;
-}
-.three {
-  /* Make the caption a block so it occupies its own line. */
   display: block;
 }
 
-.test {
+img.four {
+  height: 40px;
+  margin-top: 10px;
+  color: blue;
+}
+
+img.four:hover {
+  transform: scale(1.3);
+}
+
+.team {
   text-align: center;
 }
 
