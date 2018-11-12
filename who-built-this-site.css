@@ -255,3 +255,9 @@ ul.footer-list-elements li {
     display: none;
   }
 }
+
+@media screen and (max-width: 755px) {
+  .social {
+    padding-bottom: 15px;
+  }
+}
