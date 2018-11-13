@@ -265,6 +265,13 @@ ul.footer-list-elements li {
 }
 
 @media screen and (max-width: 755px) {
+  .footer-list-elements {
+    text-align: center;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 755px) {
   .social {
     padding-bottom: 15px;
   }
