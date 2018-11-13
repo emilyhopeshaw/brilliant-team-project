@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 
 <head>
-  <title>Add your page title</title>
+  <title>RSVP</title>
   <link href="./css/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="rsvpstyles.css">
   <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" type="png" href="./images/favicon.png" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-129150659-1“></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag(‘js’, new Date());
+
+ gtag(‘config’, ‘UA-129150659-1’);
+</script>
 </head>
 
 <body>
@@ -35,13 +44,15 @@
 
   <div class="container">
     <div class="rsvp-element">
-      <h1>You are cordially invited to our wedding</h1>
+      <h1>You are cordially invited </h1>
+      <p class="invite">
+        to the wedding of Ross and Rachel
+      </p>
     </div>
-  </div>
+  
+ <hr>
 
-  <hr>
 
-  <div class="container">
   <div class="rsvp-element">
       <iframe class="rsvpform" src="https://docs.google.com/forms/d/e/1FAIpQLSeHZQRlmMdxKKoz4YrjuvjhrCehvepLMiTtgPBkggOwZXYbKQ/viewform?embedded=true"
         width="640" height="1479" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
