@@ -1,4 +1,3 @@
-
 .about-the-day-element {
         background:url("./images/EM_LANDING.jpeg");
         background-size: cover;
@@ -7,10 +6,13 @@
         height: 100%;
       }
 
-body {
-    text-color: white;
+p {
+    color: white;
 }
 
+h2 {
+    color: #f89184;
+}
 .social-button{
     justify-content: center
     background-position: centre;
@@ -35,3 +37,4 @@ body {
 $("button").on("click" function() {
     alert("Thank you!)};
 }
+
