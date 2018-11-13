@@ -1,8 +1,8 @@
 .about-the-day-element {
-        background:url("./images/ross-and-rachel.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+        background:url("./images/ross-a-rachel.jpeg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
         height: 100%;
       }
 
@@ -10,6 +10,10 @@
     color:black;
 }
 
+.main-border {
+    margin-top: -10px;
+    margin-left: 0%;
+}
 .footer-strapline p {
     color:black;
 }
@@ -33,6 +37,11 @@ h2 {
     display: inline-block;
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 @media screen and (max-width: 755px) {
     .footer-list-elements {
       text-align: center;
