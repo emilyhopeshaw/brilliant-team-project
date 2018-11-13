@@ -270,20 +270,15 @@ th {
 }
 
 .mapouter {
-  text-align: right;
-  height: 200px;
-  width: 300px;
-  padding: 20px 20px;
-  border-radius: 30%;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
-  height: 200px;
-  width: 300px;
-  padding: 20px 20px;
-  border-radius: 30%;
+  text-align: center;
 }
 
 /*Direction section ends*/
