@@ -167,6 +167,14 @@ img.four:hover {
   text-align: center;
 }
 
+.git {
+  padding-top: 20px;
+}
+
+img.five:hover {
+  transform: scale(1.1);
+}
+
 /*image styles end*/
 
 /*footer bar styles*/
