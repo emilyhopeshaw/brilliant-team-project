@@ -42,6 +42,7 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
 @media screen and (max-width: 755px) {
     .footer-list-elements {
       text-align: center;
