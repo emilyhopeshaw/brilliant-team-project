@@ -13,28 +13,19 @@ p {
 h2 {
     color: #f89184;
 }
-.social-button{
-    justify-content: center
-    background-position: centre;
+
+.social-buttons {
+    justify-content: flex-end;
+    display: flex;
 }
 
-.btn-twitter {
-    background: #00acee;
-    border-color:#009ad5;
+.social-buttons img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
 }
 
-.btn-facebook {
-    background: #4868ac;
-    border-color:#314776;
-}
 
-.btn-pinterest {
-    background: #b62f26;
-    border-color: #b62f26;
-    justify-content: center;
-}
-
-$("button").on("click" function() {
+/* $("button").on("click" function() {
     alert("Thank you!)};
-}
-
+} */
