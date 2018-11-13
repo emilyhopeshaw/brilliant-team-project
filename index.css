@@ -1,14 +1,19 @@
 
 .about-the-day-element {
-        background:url("https://thumbs-prod.si-cdn.com/EB_pmD6ogvJXVlr2orPlET7lXkw=/800x600/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/54/ef/54ef8b98-4334-47a3-a9ac-a9d84d8ecd73/istock-626837432.jpg");
+        background:url("./images/EM_LANDING.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         height: 100%;
       }
 
-.text-for-photo {
+body {
     text-color: white;
+}
+
+.social-button{
+    justify-content: center
+    background-position: centre;
 }
 
 .btn-twitter {
@@ -24,6 +29,7 @@
 .btn-pinterest {
     background: #b62f26;
     border-color: #b62f26;
+    justify-content: center;
 }
 
 $("button").on("click" function() {
