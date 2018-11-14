@@ -1,6 +1,7 @@
 /*css file for the rsvp page*/
 html {
   display: block;
+  min-height: 100%;
 }
 
 body {
@@ -36,6 +37,7 @@ body {
   text-align: left;
   display: inline-block;
   vertical-align: bottom;
+
   /*  position: sticky;
   top: 0; */
 }
@@ -107,20 +109,27 @@ ul.nav-list-elements li {
 /*--mainsection*/
 
 /*about the day intro block styles start*/
-.rsvp-element {
+.about-the-day-element {
   background-color: white;
-  margin-left: 10%;
-  margin-right: 10%;
+  display: inline-block;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 20px 20px;
+  padding: 30px 80px;
+  height: 100%;
+}
+
+.about-copy {
+  text-align: center;
+  display: block;
+  word-wrap: break-word;
 }
 
 h1 {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #f89184;
-  text-align: center;
 }
 
 p {
@@ -137,7 +146,9 @@ p {
 /*form styling*/
 .rsvpform {
   height: 550px;
+  background-position: center
 }
+
 
 
 
@@ -259,3 +270,9 @@ ul.footer-list-elements li {
     display: block;
   }
  }
+
+ @media screen and (max-width: 755px) {
+  .social {
+    padding-bottom: 15px;
+  }
+}
