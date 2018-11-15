@@ -1,7 +1,6 @@
-/*css file for the rsvp page*/
+/*css file for the-day page*/
 html {
   display: block;
-  min-height: 100%;
 }
 
 body {
@@ -11,13 +10,6 @@ body {
   margin: 0 auto;
   background-color: #f5f5f5;
   font-size: 14px;
-}
-
-.container {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .main-border {
@@ -37,7 +29,6 @@ body {
   text-align: left;
   display: inline-block;
   vertical-align: bottom;
-
   /*  position: sticky;
   top: 0; */
 }
@@ -106,29 +97,27 @@ ul.nav-list-elements li {
 
 /*nav bar styles end*/
 
-/*--mainsection*/
-
 /*about the day intro block styles start*/
 .about-the-day-element {
   background-color: white;
-  display: inline-block;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 30px 80px;
-  height: 100%;
+  padding: 20px 20px;
 }
+
 
 .about-copy {
   text-align: center;
+  float: none;
   display: block;
   word-wrap: break-word;
 }
 
 h1 {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   color: #f89184;
 }
 
@@ -136,31 +125,31 @@ p {
   font-size: 18px;
 }
 
+a {
+  color: #f89184;
+}
+
 .invite {
-  font-style: italic;
+}
+
+#googleform{
   text-align: center;
+  height: 500px;
+}
+
+.cakepic {
+  height: 300px;
 }
 
 /*About the day intro ends*/
-
-/*form styling*/
-.rsvpform {
-  height: 550px;
-  background-position: center
-}
-
-
-
-
 
 /*Divider styling*/
 hr {
   margin: 10px;
   border-top-color: #b0e0e6;
   border-top-width: 2px;
-  margin-left: 15%;
-  margin-right: 15%;
-  width: 900px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .main-border {
@@ -172,10 +161,9 @@ hr {
 
 
 
+/*Back to top button styling*/
 
-
-
-
+/*Back to top button styling ends*/
 
 /*footer bar styles*/
 .footer-bar {
@@ -258,7 +246,7 @@ ul.footer-list-elements li {
   }
 }
 
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 940px) {
   .footer-strapline {
     display: none;
   }
@@ -269,10 +257,25 @@ ul.footer-list-elements li {
     text-align: center;
     display: block;
   }
- }
+}
 
- @media screen and (max-width: 755px) {
-  .social {
-    padding-bottom: 15px;
+@media screen and (max-width: 993px) {
+  .timeline_time {
+    position: initial;
+    border-left: 3px solid var(--uiTimelineMainColor);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .carousel-control {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .carousel {
+    margin-bottom: 20px;
+    margin-right: 0;
   }
 }
