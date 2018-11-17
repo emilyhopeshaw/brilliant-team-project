@@ -187,20 +187,13 @@ hr {
   --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
   margin: auto;
   width: 60%;
+  position: relative;
 }
 
 .timeline:before {
   content: "";
   width: 4px;
-  height: 68%;
-  background-color: #b0e0e6;
-  position: absolute;
-}
-
-.timeline:after {
-  content: "";
-  width: 4px;
-  height: 10px;
+  height: 100%;
   background-color: #b0e0e6;
   position: absolute;
 }
