@@ -5,3 +5,7 @@ $(".left").click(function() {
 $(".right").click(function() {
   $("#carousel-images").carousel("next");
 });
+
+$(document).ready(function() {
+  $('[data-toggle="tooltip"]').tooltip();
+});

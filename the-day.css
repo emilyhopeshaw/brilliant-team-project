@@ -12,11 +12,6 @@ body {
   font-size: 14px;
 }
 
-.container {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .main-border {
   border-top-color: #f89184;
   width: 100%;
