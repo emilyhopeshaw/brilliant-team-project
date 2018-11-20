@@ -1,4 +1,9 @@
 /*css file for rsvp page*/
+
+/*see also bootstrap for classes container and logo*/
+
+/*basic elements css*/
+
 html {
   display: block;
 }
@@ -97,29 +102,7 @@ ul.nav-list-elements li {
 
 /*nav bar styles end*/
 
-/*about the day intro block styles start*/
-.about-the-rsvp-element {
-  background-color: white;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 20px 20px;
-}
-
-
-.about-copy {
-  text-align: center;
-  float: none;
-  display: block;
-  word-wrap: break-word;
-}
-
-#randrpic {
-  justify-content: left;
-  height: 300px;
-}
-
+/*main content rsvp starts*/
 
 h1 {
   margin-top: 0px;
@@ -135,20 +118,6 @@ a {
   color: #f89184;
 }
 
-#googleform{
-  text-align: center;
-}
-
-.cakepic {
-  height: 300px;
-  width: 200px;
-
-}
-
-
-/*About the day intro ends*/
-
-/*Divider styling*/
 hr {
   margin: 10px;
   border-top-color: #b0e0e6;
@@ -157,14 +126,34 @@ hr {
   margin-right: 10%;
 }
 
-.main-border {
-  border-top-color: #f89184;
-  width: 100%;
-  margin: 0;
+/*part 1 - form element*/
+
+.about-the-rsvp-element {
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px 20px;
 }
 
+#googleform{
+  text-align: center;
+}
 
-/*cake*/
+/*part 2 - cake element*/
+
+.about-copy {
+  text-align: center;
+  float: none;
+  display: block;
+  word-wrap: break-word;
+}
+
+.cakepic {
+  height: 300px;
+  width: 200px;
+}
 
 .containcake {
   position: relative;
@@ -186,8 +175,8 @@ hr {
   opacity: 1;
 }
 
+/*main content rsvp ends*/
 
-/*Back to top button styling ends*/
 
 /*footer bar styles*/
 .footer-bar {
@@ -200,13 +189,6 @@ hr {
   display: inline-block;
   vertical-align: middle;
   bottom: 0;
-}
-
-.wedding-logo {
-  display: inline-block;
-  float: left;
-  height: 90px;
-  padding-left: 30px;
 }
 
 .footer-list a {
@@ -256,6 +238,8 @@ ul.footer-list-elements li {
 }
 
 /*footer bar styles end*/
+
+/*media styles*/
 
 @media screen and (max-width: 755px) {
   .wedding-logo {
