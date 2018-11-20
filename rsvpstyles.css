@@ -137,7 +137,7 @@ hr {
   padding: 20px 20px;
 }
 
-#googleform{
+#googleform {
   text-align: center;
 }
 
@@ -168,7 +168,7 @@ hr {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .containcake:hover .overlay {
@@ -176,7 +176,6 @@ hr {
 }
 
 /*main content rsvp ends*/
-
 
 /*footer bar styles*/
 .footer-bar {
