@@ -105,6 +105,7 @@ ul.nav-list-elements li {
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 20px 20px;
+  height: inherit;
 }
 
 .about-copy {
